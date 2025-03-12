@@ -1,0 +1,117 @@
+*{margin: 0px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c8102e;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    background-color: #c8102e;
+    color: white;
+}
+
+
+.navbar .logo img {
+    width: 80px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin:  10px;
+}
+.nav-links a:hover{
+    color:lightblue
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    background: url('anfield-stadium.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding-top: 20px; 
+}
+
+.about {
+    height: 300px; 
+    width: 100%; 
+    background: url('ICONSPORT_190475_0002.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    text-align: center; 
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px; 
+}
+
+
+
+
+.squad {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.players {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.player-card {
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.player-card img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+.fixtures {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background: #c8102e;
+}
+
+.match {
+    background:#c8102e;
+    padding: 10px;
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 10px;
+    
+}
+}
